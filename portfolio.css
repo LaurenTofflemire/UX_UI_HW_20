@@ -1,0 +1,283 @@
+
+
+.body {
+    background-color: #F9F9F9;
+}
+
+.navigation {
+    display: flex; 
+    background-color: #F9F9F9;
+    height: 85px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    align-items:flex-start;
+    margin-left: 50px;
+    opacity: 100%;
+}
+
+.rightNav {
+    display: flex;
+    width: 50%;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightNav a {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.rightNav a:hover {
+    color: #5446F4;
+}
+
+.contactme {
+    display: block;
+    background-color: #5446F4;
+    width: 197px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 50px;
+    opacity: 100%;
+}
+
+.contactme:hover {
+    background-color: #493DD0;
+}
+
+.contactme a {
+    color: #F9F9F9;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Average', serif;
+    font-size: 54px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 45px;
+    color: #1C1C1C;
+    margin-bottom: 70px;
+
+}
+
+.myWork {
+    justify-content: center;
+}
+
+.projectGrid {
+    display: grid;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    grid-column: 50%;
+    grid-row: 50%;
+    grid-template-areas: 'rabbit monster'
+    'energy nike';
+}
+
+.workGrid {
+    width: 510px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.rabbit {
+    grid-area: rabbit;
+}
+
+.monster {
+    grid-area: monster;
+}
+
+.energy {
+    grid-area: energy;
+}
+
+.nike {
+    grid-area: nike;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    padding-left: 16px;
+}
+
+button {
+    padding: 15px 20px 16px;
+    border-radius: 5px;
+    border: 1px solid #5446F4;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #5446F4;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1C1C1C;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 16px;
+    margin-top: auto;
+
+}
+
+.projectImg {
+    background-color: #EDECEC;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.monster img {
+    margin-top: 18px;
+}
+
+.nike img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projectInfo {
+    background-color: #C6C3CC;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.projectBtn {
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.workTogether {
+    background-color: #F0EFF2;
+    height: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailMe {
+    background-color: #5446F4;
+    width: 197px;
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.emailMe a{
+    color: #F9F9F9;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+.workContact {
+    text-align: center;
+    margin-bottom: 101px;
+}
+
+.workContact p {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal; 
+    text-align: center;
+}
+
+.workContact h1 {
+    padding-top: 60px;
+    text-align: center;
+}
+
+hr {
+    background-color: #5446F4;
+    height: 1px;
+    border: none;
+    margin-left: 0; 
+    max-width: 281px;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "icons"
+    "footertext";
+    background-color: #1c1c1c;
+    align-items: center;
+    height: 147px;
+    width: 100%;
+    position: relative;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 4px;
+}
+
+.footertext {
+    font-family: 'Fira Sans', sans-serif;
+    color: #F9F9F9;
+    font-family: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+.rightNavAlt {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+    .projectGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: 'rabbit'
+        'monster'
+        'energy'
+        'nike';
+    }
+
+    .contactme {
+        visibility: hidden;
+    }
+
+    .rightNav a {
+        visibility: hidden;
+    }
+
+    .rightNavAlt {
+        visibility: visible;
+        text-align: right;
+    }
+
+  }
