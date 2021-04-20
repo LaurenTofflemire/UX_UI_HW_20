@@ -78,12 +78,11 @@ h1 {
 }
 
 .jumbotron {
-    background-image: url(../UX_UI_HW_19/images/rabbits\ hero.svg);
-    background-size: 800px;
+    background-image: url(../UX_UI_HW_20/images/rabbits\ hero.svg);
+    background-size: 700px;
     background-position: right;
     background-repeat: no-repeat;
     height: 500px;
-    height: calc(100vh - 25px);
     display: flex;
     align-items: left;
     justify-content: flex-start;
@@ -107,7 +106,8 @@ h1 {
     padding: 30px;
     text-align: center;
     background-color: #F0EFF2;
-    height: 365px;
+    height: 175px;
+    margin-top: 50px;
 }
 
 .skillBaby p {
@@ -117,6 +117,8 @@ h1 {
     justify-content: center;
     align-content: center;
     color: #1C1C1C;
+    text-align: center;
+    line-height: 25px;
 }
 
 p {
@@ -124,8 +126,6 @@ p {
     font-family: 'Fira Sans', sans-serif;
     text-align: left;
 }
-
-
 
 button {
     padding: 15px 20px 16px;
@@ -135,15 +135,58 @@ button {
     font-family: 'Fira Sans', sans-serif;
     color: #5446F4;
     text-align: center;
+    width: 180px;
 }
 
 
+.nextProject {
+    background-color: #5446F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #F9F9F9;
+    text-align: center;
+    margin-top: 50px;
+}
 
+h2 {
+    font-family: 'Average', serif;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
 
+h3 {
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
 
+p2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: left !important;
+}
 
+hr {
+    margin-bottom: 30px;
+}
 
+.caseStudybody {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+p3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
 
 
 .workTogether {
